@@ -43,11 +43,19 @@ if (isset($_GET['steamid'])) {
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animations.css">
+    <script type="text/javascript">
+    function setVolume()
+    {
+        mySound=document.getElementById("sound");
+        mySound.volume=0.1;
+    }
+    window.onload=setVolume;
+    </script>
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body> 
-    <audio autoplay loop>
+    <audio id="sound" autoplay loop>
         <source src="music/<?php echo $r?>.ogg" type="audio/ogg">
     </audio>
     <div class="container">
