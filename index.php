@@ -47,7 +47,7 @@ if (isset($_GET['steamid'])) {
     function setVolume()
     {
         mySound=document.getElementById("sound");
-        mySound.volume=0.5;
+        mySound.volume=0.1;
     }
     window.onload=setVolume;
     </script>
