@@ -1,13 +1,11 @@
-gmod-loadingscreen
+gmod-basicloader
 ==================
 
-a garrys mod loading screen
+A Loading Page For Garrysmod
 
 ## demo
 
-**[see it in action here // can be a modified version..](http://gabrielw.de/gmod/?steamid=76561198051267973&mapname=test)**
-
-**[Screenshot](http://i.imgur.com/kdmSZ18.png)**
+**[see it in action here // can be a modified version..](http://server2.ozooma.net/gmod-loadingscreen-master/?steamid=76561198051267973&mapname=test)**
 
 ## features
 
@@ -34,10 +32,3 @@ a garrys mod loading screen
 * enjoy.
 
 The server name and the content of the page can be easily edited with basic knowledge of HTML. in the next version there will be a easy config file so its easier to customize :bowtie:
-
-_requires php5_ &middot; _styled with [bootstrap](http://getbootstrap.com/) & [cyborg theme](http://bootswatch.com/cyborg/)_
-
-
-
-
-
