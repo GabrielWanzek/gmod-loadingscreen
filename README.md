@@ -5,7 +5,7 @@ A Loading Page For Garrysmod
 
 ## demo
 
-**[see it in action here // can be a modified version..](http://server2.ozooma.net/gmod-loadingscreen-master/?steamid=76561198051267973&mapname=test)**
+**[see it in action here](http://server2.ozooma.net/gmod-basicloader/?steamid=76561198051267973&mapname=test)**
 
 ## features
 
