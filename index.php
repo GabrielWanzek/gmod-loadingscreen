@@ -43,40 +43,39 @@ if (isset($_GET['steamid'])) {
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animations.css">
-
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
-<body> 
+<body>
     <audio autoplay loop>
         <source src="music/<?php echo $r?>.ogg" type="audio/ogg">
     </audio>
     <div class="container">
-        <div class="jumbotron" style="margin-top: 50px;">
-            <div class="pull-right cycle-slideshow" data-cycle-fx="none">
+        <div class="jumbotron" style="margin-top: 50px; border-radius: 75px;">
+            <div class="pull-right cycle-slideshow" data-cycle-fx="none" style="background-color: lime">
                 <?php foreach ($pictures as $pic) {
                     echo '<img src="img/'.$pic.'.jpg" alt="Picture '.$pic.'" class="imgtop img-rounded">';
                 }?>
             </div>
-            <h1 id="title" class="bigEntrance" style="font-size: 50px;">Cheesy Hans Gaming</h1>
+            <h1 id="title" class="bigEntrance" style="font-size: 50px;">GMOD Project</h1>
             <p class="lead">
-                Welcome to our TTT-Server. Have fun!<br>
+                Very Smooth & Fresh Loading Screen!<br>
                 <small>
                     <ul style="line-height: 1.6;">
-                        <li>Be friendly.</li>
-                        <li>No random killing - low karma autoban enabled.</li>
-                        <li>No Ghosting!</li>
-                        <li>Only English or German.</li>
-                        <li>Admins are kicking/baning if something is wrong.</li>
+                        <li>Loads Information From Config File</li>
+                        <li>Rounded Borders</li>
+                        <li>Constantly Being Updated</li>
+                        <li>Open Source</li>
+                        <li>Community Friendly</li>
                     </ul>
-                    All used Workshop items can be found here:
+                    For More Information Visit:
                     <br>
-                    <code>www.steamcommunity.com/id/<b>xunocore</b></code><br>→ TTT-Servercontent DL (Link)
+                    <code>http://gmodproject.github.io/</code>
                 </small>
             </p>
 
         </div>
     </div>
-    <div style="position: absolute;bottom: 0px;left: 20px;font-size: 12px;min-width: 260px;" class="well well-sm">
+    <div style="border-radius: 25px; position: absolute;bottom: 0px;left: 20px;font-size: 12px;min-width: 260px;" class="well well-sm">
         <img src="<?php echo $avatar?>" alt="" class="pull-right img-circle">
         Hello, <b><?php echo $plname ?></b><?php echo $map ?><br>
         Music: "<?php echo $authors[$r];?>"
