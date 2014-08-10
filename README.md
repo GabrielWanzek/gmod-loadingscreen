@@ -22,10 +22,7 @@ A Loading Page For Garrysmod
 ## how to use
 
 * put 3 music files in `.ogg`-format in the music folder. They must be named `1.ogg`, `2.ogg` and `3.ogg`!
-* put the music artists on line 12-14 in `index.php`
-* get a steam web-api key [here](http://steamcommunity.com/dev/apikey)
-* replace the `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` in `index.php` on line 24 with your personal api key.
-* upload this code somewhere
+* edit config.php and fill in the values
  * you don't have a webserver with PHP support? look [here](http://www.000webhost.com/) or [here](http://www.square7.ch/)!
 * set the url of the loading screen in your `server.cfg` like that `sv_loadingurl "http://example.com/gmod-loadingscreen/?steamid=%s&mapname=%m"`
 * restart server.
