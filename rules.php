@@ -1,3 +1,6 @@
+<?php
+require('config.php');
+?>
 <!DOCTYPE html>
 <html class="no-js">
 <head>
@@ -16,20 +19,20 @@
     <div class="container">
         <div class="jumbotron" style="margin: 50px auto 10px; max-width: 840px;">
             <img src="img/rule.jpg" alt="" class="pull-right img-rounded" style="width: 240px; height: auto;">
-            <h1 id="title" class="bigEntrance" style="font-size: 50px;">Cheesy Hans Gaming</h1>
+            <h1 id="title" class="bigEntrance" style="font-size: 50px;"><?php echo $title ?></h1>
             <p class="lead">
-                Welcome to our TTT-Server. Have fun!<br>
+                <?php echo $slogan ?><br>
                 <small>
                     <ul style="line-height: 1.6;">
-                        <li>Be friendly.</li>
-                        <li>No random killing - low karma autoban enabled.</li>
-                        <li>No Ghosting!</li>
-                        <li>Only English or German.</li>
-                        <li>Admins are kicking/baning if something is wrong.</li>
+                        <li><?php echo $rule1 ?></li>
+                        <li><?php echo $rule2 ?></li>
+                        <li><?php echo $rule3 ?></li>
+                        <li><?php echo $rule4 ?></li>
+                        <li><?php echo $rule5 ?></li>
                     </ul>
-                    All used Workshop items can be found here:
+                    <?php echo $cslogan ?>
                     <br>
-                    <code>www.steamcommunity.com/id/<b>xunocore</b></code><br>→ TTT-Servercontent DL (Link)
+                    <code><?php echo $curl ?></code>
                 </small>
             </p>
 
