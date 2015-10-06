@@ -37,8 +37,6 @@ add a loading screen for your garrys mod server!
 * restart server.
 * enjoy.
 
-The server name and the content of the page can be easily edited with basic knowledge of HTML. in the next version there will be a easy config file so its easier to customize :bowtie:
-
 ## Pull requests
 
 Feel free to send a PR to improve this!
