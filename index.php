@@ -6,6 +6,9 @@ $error_url = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 $error_url_test = $error_url . "?steamid=76561198043788577&mapname=test_map";
 $error_url_server = $error_url . "?steamid=%s&mapname=%m";
 
+//Music test
+$filetest = "music/1.ogg";
+
 error_reporting(0);
 @set_time_limit(3);
 
@@ -23,7 +26,8 @@ $authors = array(
 $pictures = array(1,2,3);
 shuffle($pictures);
 
-if (isset($_GET['mapname'])){
+
+if (isset($_GET['mapname'])) {
     $map = '<br>You will play the map: '.$_GET['mapname'];
 }
 else {
@@ -58,6 +62,14 @@ else {
     <a href='$error_url_server'>$error_url_server</a>
     
     ");
+}
+
+if (is_readable($filetest)) {
+}
+else {
+    die("<img src='img/ohno.jpg' style='margin-top: 20px height='256' width='256';' /><br />Oh-No! You don't seem to have any music uploaded or we can't access it.<br />
+    Please make sure you have all your music uploaded correctly under <code>music</code> with each file being in the <code>ogg</code> format and named <code>1-3.ogg</code><br /><br />
+    </a>");
 }
 
 ?>
