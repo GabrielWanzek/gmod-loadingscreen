@@ -14,7 +14,7 @@ $cslogan = 'All used workshop items can be found here:';
 /* Collection URL */
 $curl = 'http://genericcontentwebsitehere.com';
 /* STEAM API KEY */
-$sapikey = '**STEAM API KEY GOES HERE**';
+$apikey = '**STEAM API KEY GOES HERE**';
 /* Song Names */
 $song1 = 'SONG1';
 $song2 = 'SONG2';

@@ -14,7 +14,7 @@ $cslogan = 'Example Text';
 /* Collection URL */
 $curl = 'Example Text';
 /* STEAM API KEY */
-$sapikey = '**STEAM API GOES HERE**';
+$apikey = '**STEAM API GOES HERE**';
 /* Song Names */
 $song1 = 'SONG1';
 $song2 = 'SONG2';
